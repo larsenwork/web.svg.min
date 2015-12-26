@@ -2,6 +2,7 @@
 Über optimised social vector icons (file-sizewise)  
 Icons + styling [codepen example](http://codepen.io/larsenwork/pen/admEZM)  
 Alphabetically sorted list [icons.html](https://github.com/larsenwork/social.svg.min/blob/master/icons.html)  
+Request new icons in [issue #2](https://github.com/larsenwork/social.svg.min/issues/2) 
 ![Imgur](http://i.imgur.com/cXCRcdj.png)
 
 <p>&nbsp;</p>
