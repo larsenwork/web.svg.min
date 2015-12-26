@@ -24,5 +24,5 @@ Twitter - optimised (297 bytes)
 <p>&nbsp;</p>
 
 ###License
-> Logos are © the respective brands/creators.  
-> social.svg.min is free to use. It's provided "as is", without warranty.  
+Logos are © the respective brands/creators.  
+social.svg.min is free to use. It's provided "as is", without warranty.  
