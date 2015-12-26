@@ -27,7 +27,5 @@ Twitter - optimised
 <p>&nbsp;</p>
 
 ###License
-Logos are © the respective brands/creators. The rest is:
-
-#####Free
-Anyone is free use it. It's provided "as is", without warranty.
+> Logos are © the respective brands/creators.  
+> social.svg.min is free to use. It's provided "as is", without warranty.  
