@@ -1,14 +1,13 @@
 ### social.svg.min
-Über optimised social vector icons (file-sizewise)  
-Icons + styling [codepen example](http://codepen.io/larsenwork/pen/admEZM)  
-Alphabetically sorted list [icons.html](https://github.com/larsenwork/social.svg.min/blob/master/icons.html)  
-Request new icons in [issue #2](https://github.com/larsenwork/social.svg.min/issues/2) 
+Über optimised social vector icons (sizewise)  
+Icons with styling [codepen example](http://codepen.io/larsenwork/pen/admEZM)  
+Separate svgs in the [icons folder](https://github.com/larsenwork/social.svg.min/blob/master/icons)  
+Request new icons in [issue #2](https://github.com/larsenwork/social.svg.min/issues/2)
 ![Imgur](http://i.imgur.com/cXCRcdj.png)
 
 <p>&nbsp;</p>
 
 ###Description
-Social icons optimised for size without loss of quality
 - [x] Fewer nodes and handles
 - [x] Fewer nodes with only one handle
 - [x] Only integers
