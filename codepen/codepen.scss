@@ -1,5 +1,6 @@
 // VARIABLES
-$size: 20%;
+$size: 15vw;
+$max-size: 6rem;
 $gun: #383940;
 $socials: (
   twitter:     #55acee,
@@ -17,35 +18,32 @@ $socials: (
 
 // ICONS
 .social {
-  margin    : $size*.1;
+  margin    : $max-size*.1;
   transition: 0.5s ease;
   height    : $size;
   width     : $size;
+  max-width : $max-size;
+  max-height: $max-size;
   display   : inline-block;
   &:hover {
     cursor       : pointer;
     border-radius: 0;
   }
-}
-.no-bg .social {
-  background-color: transparent !important;
-  margin          : -$size*.05;
-}
-.round {
-  border-radius: 50%;
-}
-.rounded {
-  border-radius: 20%;
-}
-svg {
-  height: 100%;
-  width : 100%;
-  fill  : white;
+  &.round {
+    border-radius: 50%;
+  }
+  &.rounded {
+    border-radius: 20%;
+  }
+  svg {
+    height: 100%;
+    width : 100%;
+    fill  : white;
+  }
 }
 
-// COLORS
-@each $social,
-$color in $socials {
+// ICON COLORS
+@each $social, $color in $socials {
   [aria-label="#{$social}"] {
     background-color: $color;
     &:focus,
@@ -54,9 +52,14 @@ $color in $socials {
     }
   }
 }
+
+// NO BG
 .no-bg {
-  @each $social,
-  $color in $socials {
+  .social {
+    background-color: transparent !important;
+    margin          : 0;
+  }
+  @each $social, $color in $socials {
     [aria-label="#{$social}"] {
       svg {
         fill: $color;
@@ -77,30 +80,16 @@ body {
   text-align: center;
   font-size : 0;
   margin    : 0 auto;
-  max-width : 40rem;
+  max-width : 80rem;
 }
+
+// TEXT
 p {
-  color        : $gun;
-  font-size    : 1rem;
-  margin-bottom: 1rem;
-  font-family  : 'Source Sans Pro';
-  line-height  : 1.6;
+  color      : $gun;
+  font-size  : 1rem;
+  font-family: Sans-serif;
   a {
     text-decoration: none;
     color          : map-get($socials, twitter);
-  }
-}
-
-// LOAD ANIMATION
-body {
-  animation: load 1s ease forwards;
-}
-@keyframes load {
-  0% {
-    opacity  : 0;
-    transform: scale3d(.6, .6, .6);
-  }
-  50% {
-    opacity: 1;
   }
 }
