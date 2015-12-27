@@ -5,10 +5,7 @@
 <p>&nbsp;</p>
 
 ###Description
-- [x] Fewer nodes and handles
-- [x] Fewer nodes with only one handle
-- [x] Only integers
-- [x] No background
+Medium article: [Optimising svgs for web use](https://medium.com/@larsenwork/optimising-svgs-for-web-use-part-1-67e8f2d4035#.xr44xhq7x)
 
 <p>&nbsp;</p>
 
