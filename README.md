@@ -5,7 +5,7 @@
 <p>&nbsp;</p>
 
 ###Description
-Medium article with images + code samples explaining why and how: [Optimising svgs for web use](https://medium.com/@larsenwork/optimising-svgs-for-web-use-part-1-67e8f2d4035#.xr44xhq7x) 
+Medium article with images + code samples explaining why and how: Optimising svgs for web use [Part 1](https://medium.com/@larsenwork/optimising-svgs-for-web-use-part-1-67e8f2d4035) and [Part 2](https://medium.com/@larsenwork/optimising-svgs-for-web-use-part-2-6711cc15df46)
 
 <p>&nbsp;</p>
 
