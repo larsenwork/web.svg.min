@@ -2,6 +2,7 @@
 $size: 15vw;
 $max-size: 6rem;
 $gun: #383940;
+$darken: 10%;
 $socials: (
   twitter:     #55acee,
   facebook:    #3b5998,
@@ -16,7 +17,8 @@ $socials: (
   medium:      $gun,
   vine:        #00B289,
   tumblr:      #36465D,
-  youtube:     #cd201f
+  youtube:     #cd201f,
+  soundcloud:  #ff6000
 );
 
 // ICONS
@@ -32,26 +34,27 @@ $socials: (
     cursor       : pointer;
     border-radius: 0;
   }
-  &.round {
-    border-radius: 50%;
-  }
-  &.rounded {
-    border-radius: 20%;
-  }
   svg {
     height: 100%;
     width : 100%;
     fill  : white;
   }
 }
+.round {
+  border-radius: 50%;
+}
+.rounded {
+  border-radius: 20%;
+}
+
 
 // ICON COLORS
 @each $social, $color in $socials {
   [aria-label="#{$social}"] {
-    background-color: $color;
+    background: $color;
     &:focus,
     &:hover {
-      background: darken($color,10%);
+      background: darken($color,$darken);
     }
   }
 }
@@ -70,7 +73,7 @@ $socials: (
       &:focus,
       &:hover {
         svg {
-          fill: darken($color,10%);
+          fill: darken($color,$darken);
         }
       }
     }
