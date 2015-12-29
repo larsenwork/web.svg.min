@@ -47,9 +47,9 @@ $socials: (
   border-radius: 20%;
 }
 
+
 // ICON COLORS
-@each $social,
-$color in $socials {
+@each $social, $color in $socials {
   [aria-label="#{$social}"] {
     background: $color;
     &:focus,
@@ -65,8 +65,7 @@ $color in $socials {
     background-color: transparent !important;
     margin          : 0;
   }
-  @each $social,
-  $color in $socials {
+  @each $social, $color in $socials {
     [aria-label="#{$social}"] {
       svg {
         fill: $color;
@@ -96,6 +95,9 @@ p {
   font-size  : 1rem;
   font-family: Sans-serif;
   margin     : 1rem 0;
+  line-height: 1.6rem;
+  font-family: Source Code Pro;
+  font-weight: 300;
   a {
     text-decoration: none;
     color          : map-get($socials, twitter);
