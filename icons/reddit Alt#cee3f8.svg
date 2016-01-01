@@ -1,0 +1,9 @@
+<svg role="img" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="616" cy="373" r="53"/>
+  <circle cx="184" cy="373" r="53"/>
+  <ellipse cx="400" cy="446" rx="240" ry="157"/>
+  <circle class="reddit-eyes" cx="315" cy="416" r="39"/>
+  <circle class="reddit-eyes" cx="485" cy="416" r="39"/>
+  <path class="reddit-line" d="M548 188l-107-25-40 126m82 229s-18 25-83 25-83-25-83-25"/>
+  <circle cx="590" cy="196" r="42"/>
+</svg>
