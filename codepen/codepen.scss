@@ -49,7 +49,6 @@ $socials: (
   border-radius: 20%;
 }
 
-
 // ICON COLORS
 @each $social, $color in $socials {
   [aria-label="#{$social}"] {
@@ -57,6 +56,36 @@ $socials: (
     &:focus,
     &:hover {
       background: darken($color,$darken);
+    }
+    @if $social == 'snapchat' {
+      svg {
+        stroke-width: 13;
+        stroke      : darken($gun,8%);
+      }
+    }
+    @elseif $social == 'reddit' {
+      svg {
+        stroke-width: 18;
+        stroke      : $gun;
+        &.alt {
+          stroke-width: 21;          
+        }
+        &:focus,
+        &:hover {
+          svg {
+            stroke: darken($gun,$darken);
+          }
+        }
+        .reddit-eyes {
+          fill        : #f04a22;
+          stroke-width: 0;
+        }
+        .reddit-line {
+          stroke-linecap : round;
+          fill           : none;
+          stroke-linejoin: round;
+        }
+      }
     }
   }
 }
@@ -69,50 +98,38 @@ $socials: (
   }
   @each $social, $color in $socials {
     [aria-label="#{$social}"] {
-      svg {
-        fill: $color;
-      }
-      &:focus,
-      &:hover {
+      @if $social == 'snapchat' {
         svg {
-          fill: darken($color,$darken);
+          fill  : $gun;
+          stroke: $gun;
+        }
+        &:focus,
+        &:hover {
+          svg {
+            fill  : darken($gun,$darken);
+            stroke: darken($gun,$darken);
+          }
+        }
+      }
+      @elseif $social == 'reddit' {
+        svg {
+          fill: white !important;
+        }
+      }
+      @else {
+        svg {
+          fill: $color;
+        }
+        &:focus,
+        &:hover {
+          svg {
+            fill: darken($color,$darken);
+          }
         }
       }
     }
   }
 }
-
-// snapchat
-[aria-label="snapchat"] {
-  svg {
-    stroke-width:13;
-    stroke:darken($gun,8%);
-  }
-}
-
-// Reddit
-[aria-label="reddit"] {
-  svg {
-    stroke-width:18;
-    stroke:$gun;
-    .reddit-eyes {
-      fill: #f04a22;
-      stroke-width:0;
-    }
-    .reddit-line {
-      stroke-linecap:round;
-      fill: none;
-    }
-  }
-}
-.no-bg {
-  [aria-label="reddit"] {
-    svg {
-      fill: white !important;
-    }
-  }
-}
-
 
 // LAYOUT
 body {
