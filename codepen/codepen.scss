@@ -18,7 +18,9 @@ $socials: (
   vine:        #00B289,
   tumblr:      #36465D,
   youtube:     #cd201f,
-  soundcloud:  #ff6000
+  soundcloud:  #ff6000,
+  snapchat:    #f7ec1e,
+  reddit:      #cee3f8
 );
 
 // ICONS
@@ -80,6 +82,30 @@ $socials: (
   }
 }
 
+// snapchat
+[aria-label="snapchat"] {
+  svg {
+    stroke-width:12;
+    stroke:#000;
+  }
+}
+
+[aria-label="reddit"] {
+  svg {
+    stroke-width:18;
+    stroke:#000;
+    .reddit-eyes {
+      fill: #f04a22;
+      stroke-width:0;
+    }
+    .reddit-line {
+      stroke-linecap:round;
+      fill: none;
+    }
+  }
+}
+
+
 // LAYOUT
 body {
   padding   : $size*.1;
@@ -93,10 +119,9 @@ body {
 p {
   color      : $gun;
   font-size  : 1rem;
-  font-family: Sans-serif;
   margin     : 1rem 0;
   line-height: 1.6rem;
-  font-family: Source Code Pro;
+  font-family: Roboto Mono;
   font-weight: 300;
   a {
     text-decoration: none;
