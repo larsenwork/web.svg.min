@@ -90,6 +90,7 @@ $socials: (
   }
 }
 
+// Reddit
 [aria-label="reddit"] {
   svg {
     stroke-width:18;
@@ -101,6 +102,13 @@ $socials: (
     .reddit-line {
       stroke-linecap:round;
       fill: none;
+    }
+  }
+}
+.no-bg {
+  [aria-label="reddit"] {
+    svg {
+      fill: white !important;
     }
   }
 }
