@@ -1,0 +1,13 @@
+<svg role="img" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <path d="M460 668c36.493-19 84.164 7 74 43h-268c-10.164-36 37.507-62 74-43h120z"/>
+  <ellipse cx="472" cy="536" rx="72" ry="86"/>
+  <ellipse cx="328" cy="536" rx="72" ry="86"/>
+  <path d="M425.467 711c55.13-30.309 88.533-158 66.533-268h-184c-22 110 11.404 237.691 66.533 268h50.934z"/>
+  <circle cx="578" cy="269" r="44"/>
+  <circle cx="222" cy="269" r="44"/>
+  <ellipse cx="400" cy="329" rx="197" ry="129"/>
+  <circle class="reddit-eyes" cx="331" cy="304" r="32"/>
+  <circle class="reddit-eyes" cx="469" cy="304" r="32"/>
+  <path class="reddit-line" d="M521 116l-88-20-32 102M468 388s-16 21-68 21-68-21-68-21"/>
+  <circle cx="556" cy="123" r="34"/>
+</svg>
