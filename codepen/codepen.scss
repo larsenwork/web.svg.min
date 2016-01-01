@@ -85,15 +85,15 @@ $socials: (
 // snapchat
 [aria-label="snapchat"] {
   svg {
-    stroke-width:12;
-    stroke:#000;
+    stroke-width:13;
+    stroke:darken($gun,8%);
   }
 }
 
 [aria-label="reddit"] {
   svg {
     stroke-width:18;
-    stroke:#000;
+    stroke:$gun;
     .reddit-eyes {
       fill: #f04a22;
       stroke-width:0;
