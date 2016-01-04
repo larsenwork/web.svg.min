@@ -20,7 +20,8 @@ $socials: (
   youtube:     #cd201f,
   soundcloud:  #ff6000,
   snapchat:    #f7ec1e,
-  reddit:      #cee3f8
+  reddit:      #cee3f8,
+  whatsapp:    #25D366
 );
 
 // ICONS
@@ -68,7 +69,7 @@ $socials: (
         stroke-width: 18;
         stroke      : $gun;
         &.alt {
-          stroke-width: 21;          
+          stroke-width: 21;
         }
         &:focus,
         &:hover {
