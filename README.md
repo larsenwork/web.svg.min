@@ -4,7 +4,7 @@ Up to 85% smaller than the official versions.
 <p>&nbsp;</p>
 
 Preview all with styling: [codepen example](http://codepen.io/larsenwork/pen/admEZM)  
-Get svgs: [icons folder](https://github.com/larsenwork/social.svg.min/tree/master/icons)  
+Get svgs: [icons folder](https://github.com/larsenwork/social.svg.min/tree/master/svg)  
 Requests: [issue #2](https://github.com/larsenwork/social.svg.min/issues/2)  
 
 <p>&nbsp;</p>
