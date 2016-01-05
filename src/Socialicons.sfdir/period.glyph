@@ -1,0 +1,26 @@
+StartChar: period
+Encoding: 46 46 0
+Width: 800
+VWidth: 0
+Flags: W
+HStem: 0 21G<154 646>
+LayerCount: 3
+Back
+Fore
+SplineSet
+172 800 m 2
+ 628 800 l 2
+ 664 800 712 800 756 756 c 0
+ 800 712 800 664 800 628 c 2
+ 800 172 l 2
+ 800 136 800 88 756 44 c 0
+ 712 0 664 0 628 0 c 2
+ 172 0 l 2
+ 136 0 88 0 44 44 c 0
+ 0 88 0 136 0 172 c 2
+ 0 628 l 2
+ 0 664 0 712 44 756 c 0
+ 88 800 136 800 172 800 c 2
+EndSplineSet
+Layer: 2
+EndChar
