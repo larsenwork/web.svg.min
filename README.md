@@ -15,7 +15,7 @@ Medium articles with images + code samples explaining why and how:
 <p>&nbsp;</p>
 
 Some of the 25+ icons:  
-<img src="http://i.imgur.com/mJVtE3m.png" width="50%" />
+<a href="http://codepen.io/larsenwork/pen/admEZM"><img src="http://i.imgur.com/mJVtE3m.png" width="50%" /></a>
 
 <p>&nbsp;</p>
 
