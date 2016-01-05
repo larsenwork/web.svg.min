@@ -1,4 +1,4 @@
-# Social vector icons
+# Social Vector Icons
 Up to 85% smaller than the official versions.
 
 ----------
