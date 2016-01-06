@@ -4,6 +4,7 @@ $max-size: 6rem;
 $gun: #383940;
 $darken: 10%;
 $socials: (
+  appstore:    $gun,
   behance:     #1769ff,
   codepen:     $gun,
   dribbble:    #ea4c89,
@@ -15,32 +16,41 @@ $socials: (
   medium:      $gun,
   pinterest:   #bd081c,
   reddit:      #cee3f8,
+  rss:         #D95B29,
   snapchat:    #f7ec1e,
   soundcloud:  #ff6000,
+  spotify:     #2ebd59,
   tumblr:      #36465D,
   twitter:     #55acee,
   vine:        #00B289,
   whatsapp:    #25D366,
   youtube:     #cd201f
 );
+$badges: (
+  appstore: 2700
+);
 
 // ICONS
 .social {
-  margin    : $max-size*.1;
-  transition: 0.5s ease;
-  height    : $size;
-  width     : $size;
-  max-width : $max-size;
-  max-height: $max-size;
-  display   : inline-block;
-  &:hover {
-    cursor       : pointer;
-    border-radius: 0;
+  a {
+    margin    : $max-size*.1;
+    transition: 0.5s ease;
+    height    : $size;
+    width     : $size;
+    max-width : $max-size;
+    max-height: $max-size;
+    display   : inline-block;
+    &:hover {
+      cursor       : pointer;
+    }
+    svg {
+      height: 100%;
+      width : 100%;
+      fill  : white;
+    }
   }
-  svg {
-    height: 100%;
-    width : 100%;
-    fill  : white;
+  .badges a {
+    border-radius: 1rem;
   }
 }
 .round {
@@ -49,6 +59,7 @@ $socials: (
 .rounded {
   border-radius: 20%;
 }
+
 
 // ICON COLORS
 @each $social, $color in $socials {
@@ -94,37 +105,39 @@ $socials: (
 // NO BG
 .no-bg {
   .social {
-    background-color: transparent !important;
-    margin          : 0;
-  }
-  @each $social, $color in $socials {
-    [aria-label="#{$social}"] {
-      @if $social == 'snapchat' {
-        svg {
-          fill  : $gun;
-          stroke: $gun;
-        }
-        &:focus,
-        &:hover {
+    a {
+      background-color: transparent !important;
+      margin          : 0;
+    }
+    @each $social, $color in $socials {
+      [aria-label="#{$social}"] {
+        @if $social == 'snapchat' {
           svg {
-            fill  : darken($gun,$darken);
-            stroke: darken($gun,$darken);
+            fill  : $gun;
+            stroke: $gun;
+          }
+          &:focus,
+          &:hover {
+            svg {
+              fill  : darken($gun,$darken);
+              stroke: darken($gun,$darken);
+            }
           }
         }
-      }
-      @elseif $social == 'reddit' {
-        svg {
-          fill: white !important;
-        }
-      }
-      @else {
-        svg {
-          fill: $color;
-        }
-        &:focus,
-        &:hover {
+        @elseif $social == 'reddit' {
           svg {
-            fill: darken($color,$darken);
+            fill: white !important;
+          }
+        }
+        @else {
+          svg {
+            fill: $color;
+          }
+          &:focus,
+          &:hover {
+            svg {
+              fill: darken($color,$darken);
+            }
           }
         }
       }
@@ -132,6 +145,15 @@ $socials: (
   }
 }
 
+// BADGES
+.social {
+  @each $badge, $width in $badges {
+    [aria-label="#{$badge}"] {
+      width: $size * $width / 800;
+      max-width : $max-size * $width / 800;
+    }
+  }
+}
 // LAYOUT
 body {
   padding   : $size*.1;
