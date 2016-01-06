@@ -9,13 +9,13 @@ Request icons: [issue](https://github.com/larsenwork/social.svg.min/issues/2)
 
 <p>&nbsp;</p>
 
-Medium articles with images + code samples explaining why and how:  
-"Optimising SVGs for web use" [Part 1](https://medium.com/@larsenwork/optimising-svgs-for-web-use-part-1-67e8f2d4035) and [Part 2](https://medium.com/@larsenwork/optimising-svgs-for-web-use-part-2-6711cc15df46)
+I've written a couple of Medium articles explaining how it's done:  
+"Optimising SVGs for web use" [Part 1](https://medium.com/@larsenwork/optimising-svgs-for-web-use-part-1-67e8f2d4035), [Part 2](https://medium.com/@larsenwork/optimising-svgs-for-web-use-part-2-6711cc15df46) and [Part 2½](https://medium.com/@larsenwork/optimising-svgs-for-web-use-part-2-1-598815d74f9c)
 
 <p>&nbsp;</p>
 
 Some of the 25+ icons:  
-<a href="http://codepen.io/larsenwork/pen/admEZM"><img src="http://i.imgur.com/mJVtE3m.png" width="50%" /></a>
+<a href="http://codepen.io/larsenwork/pen/admEZM"><img src="http://i.imgur.com/Mxo1wIb.png" width="50%" /></a>
 
 <p>&nbsp;</p>
 
