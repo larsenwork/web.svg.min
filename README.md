@@ -1,16 +1,12 @@
 # Social Vector Icons
-Up to 85% smaller than the official versions.
+Up to 85% smaller than the official versions.  
+A couple of Medium articles explaining how: "Optimising SVGs for web use" [Part 1](https://medium.com/@larsenwork/optimising-svgs-for-web-use-part-1-67e8f2d4035), [Part 2](https://medium.com/@larsenwork/optimising-svgs-for-web-use-part-2-6711cc15df46) and [Part 2½](https://medium.com/@larsenwork/optimising-svgs-for-web-use-part-2-1-598815d74f9c)
 
 <p>&nbsp;</p>
 
 Preview all with styling: [codepen example](http://codepen.io/larsenwork/pen/admEZM)  
-Get the icons: [svg folder](https://github.com/larsenwork/social.svg.min/tree/master/svg)  
-Request icons: [issue](https://github.com/larsenwork/social.svg.min/issues/2)
-
-<p>&nbsp;</p>
-
-I've written a couple of Medium articles explaining how it's done:  
-"Optimising SVGs for web use" [Part 1](https://medium.com/@larsenwork/optimising-svgs-for-web-use-part-1-67e8f2d4035), [Part 2](https://medium.com/@larsenwork/optimising-svgs-for-web-use-part-2-6711cc15df46) and [Part 2½](https://medium.com/@larsenwork/optimising-svgs-for-web-use-part-2-1-598815d74f9c)
+Get them: [svg folder](https://github.com/larsenwork/social.svg.min/tree/master/svg)  
+Requests: [issue](https://github.com/larsenwork/social.svg.min/issues/2)
 
 <p>&nbsp;</p>
 
