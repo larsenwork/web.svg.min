@@ -4,7 +4,7 @@ Width: 800
 VWidth: 0
 HStem: 135 383<359.725 446.817> 623 42<315.896 484.104>
 VStem: 135 42<314.401 485.162> 238 326<324.768 456.318> 337 128<186 272.99> 623 42<314.274 485.162>
-LayerCount: 3
+LayerCount: 4
 Back
 SplineSet
 400 135 m 4
@@ -90,4 +90,5 @@ SplineSet
  135 546 254 665 400 665 c 4
 EndSplineSet
 Layer: 2
+Layer: 3
 EndChar

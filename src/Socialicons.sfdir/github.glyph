@@ -4,7 +4,7 @@ Width: 800
 VWidth: 0
 Flags: W
 VStem: 140 94<342.329 468.888> 566 94<342.329 468.888>
-LayerCount: 3
+LayerCount: 4
 Back
 SplineSet
 399.975585938 660.791015625 m 4
@@ -63,4 +63,5 @@ SplineSet
  140 545 256 661 400 661 c 4
 EndSplineSet
 Layer: 2
+Layer: 3
 EndChar

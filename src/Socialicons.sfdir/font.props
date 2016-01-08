@@ -12,17 +12,18 @@ UnderlineWidth: 40
 Ascent: 800
 Descent: 0
 InvalidEm: 0
-LayerCount: 3
+LayerCount: 4
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 Layer: 2 0 "Back 2" 1
+Layer: 3 1 "Quad" 0
 XUID: [1021 301 2019511557 4481893]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1451056432
-ModificationTime: 1451951111
+ModificationTime: 1452203673
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -50,4 +51,8 @@ FitToEm: 1
 WinInfo: 0 29 11
 BeginPrivate: 0
 EndPrivate
+Grid
+-800 175.75 m 0
+ 1600 175.75 l 1024
+EndSplineSet
 EndSplineFont
