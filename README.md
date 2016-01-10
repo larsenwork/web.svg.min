@@ -4,7 +4,7 @@ Up to 85% smaller than the official versions.
 <p>&nbsp;</p>
 
 Preview: [codepen](http://codepen.io/larsenwork/pen/admEZM)  
-Get them: [svgs](https://github.com/larsenwork/social.svg.min/tree/master/svg)  
+Get them: [svg's](https://github.com/larsenwork/social.svg.min/tree/master/svg)  
 Requests: [issue](https://github.com/larsenwork/social.svg.min/issues/2)
 
 <p>&nbsp;</p>
