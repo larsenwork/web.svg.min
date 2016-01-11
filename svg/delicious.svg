@@ -1,0 +1,6 @@
+<svg role="img" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+  <path d="M2 5h3v3H2z" fill="#000"/>
+  <path d="M5 5h3v3H5z" fill="#ddd"/>
+  <path d="M2 2h3v3H2z" fill="#fff"/>
+  <path d="M5 2h3v3H5z" fill="#3274d1"/>
+</svg>
