@@ -81,13 +81,11 @@ $badges: (
       }
     }
     @if $social == 'flickr' {
-      svg {
-        .flickr-blue {
-          fill: $flickr-blue;
-        }
-        .flickr-pink {
-          fill: $flickr-pink;
-        }
+      .flickr-blue {
+        fill: $flickr-blue;
+      }
+      .flickr-pink {
+        fill: $flickr-pink;
       }
     }
     @if $social == 'reddit' {
@@ -139,6 +137,11 @@ $badges: (
             }
           }
         }
+        @if $social == 'reddit' {
+          svg {
+            fill: white !important;
+          }
+        }
         @if $social == 'flickr' {
           &:focus,
           &:hover {
@@ -148,11 +151,6 @@ $badges: (
             .flickr-pink {
               fill: darken($flickr-pink,$darken);
             }
-          }
-        }
-        @if $social == 'reddit' {
-          svg {
-            fill: white !important;
           }
         }
         @else {
