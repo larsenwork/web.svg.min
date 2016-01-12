@@ -1,7 +1,7 @@
 function solidToggle(event) {
   event.preventDefault()
-  var body = document.getElementsByTagName('body')[0]
-  body.classList.toggle('no-bg')
+  var social = document.getElementsByClassName('social')[0]
+  social.classList.toggle('no-bg')
 }
 
 function openSource(event) {
