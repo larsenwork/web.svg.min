@@ -6,7 +6,7 @@ $darken: 10%;
 $flickr-pink: #FE0084;
 $flickr-blue: #256DD9;
 $socials: (
-  app store:   $gun,
+  app-store:   $gun,
   behance:     #1769ff,
   codepen:     $gun,
   dribbble:    #ea4c89,
@@ -14,8 +14,8 @@ $socials: (
   flickr:      hsl(0,0,90%),
   generic:     $gun,
   github:      $gun,
-  google play: $gun,
-  google plus: #dd4b39,
+  google-play: $gun,
+  google-plus: #dd4b39,
   instagram:   #3f729b,
   linkedin:    #007bb6,
   medium:      $gun,
@@ -28,12 +28,13 @@ $socials: (
   tumblr:      #36465D,
   twitter:     #55acee,
   vine:        #00B289,
+  vk:          #4D76A4,
   whatsapp:    #25D366,
   youtube:     #cd201f
 );
 $badges: (
-  app store:   2700,
-  google play: 2700
+  app-store:   2700,
+  google-play: 2700
 );
 
 // ICONS
@@ -79,7 +80,7 @@ $badges: (
     }
   }
   @else {
-    [aria-label="#{$social}"] {
+    .#{$social} {
       background: $color;
       &:focus,
       &:hover {
@@ -148,7 +149,7 @@ $badges: (
       }
     }
     @else {
-      [aria-label="#{$social}"] {
+      .#{$social} {
         @if $social == 'snapchat' {
           svg {
             fill  : $gun;
@@ -197,7 +198,7 @@ $badges: (
 // BADGES
 .social {
   @each $badge, $width in $badges {
-    [aria-label="#{$badge}"] {
+    .#{$badge} {
       width: $size * $width / 800;
       max-width : $max-size * $width / 800;
     }
@@ -215,13 +216,16 @@ body {
 // TEXT
 p {
   color      : $gun;
-  font-size  : 1rem;
+  font-size  : 0.8rem;
   margin     : 1rem 0;
-  line-height: 1.6rem;
+  line-height: 1.6;
   font-family: Roboto Mono;
   font-weight: 300;
   a {
     text-decoration: none;
     color          : map-get($socials, twitter);
   }
+}
+.divider {
+  padding-top: 2rem
 }
