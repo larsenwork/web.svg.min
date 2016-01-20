@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1451056432
-ModificationTime: 1453238722
+ModificationTime: 1453284951
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -52,10 +52,7 @@ WinInfo: 0 29 11
 BeginPrivate: 0
 EndPrivate
 Grid
-400 1200 m 4
- 400 -400 l 1028
-  Named: "midt"
--800 176 m 4
- 1600 176 l 1028
+-800 175.75 m 0
+ 1600 175.75 l 1024
 EndSplineSet
 EndSplineFont
