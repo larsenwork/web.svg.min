@@ -1,5 +1,5 @@
 # Web.svg.min
-Vector icons, badges, flags etc. über optimised for web use.  
+Vector icons, badges, flags etc. über optimised for web use. (Formerly called social.svg.min).  
 
 <p>&nbsp;</p>
 
