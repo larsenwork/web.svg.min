@@ -20,4 +20,4 @@ I wrote some short Medium articles: "Optimising SVGs for web use" [Part 1](https
 
 #### License
 Logos are © the respective brands/creators.  
-social.svg.min is free to use. It's provided "as is", without warranty.  
+web.svg.min is free to use. It's provided "as is", without warranty.  
