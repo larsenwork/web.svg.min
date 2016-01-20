@@ -1,5 +1,5 @@
-# Social Vector Icons
-Up to 85% smaller than the official versions.  
+# Web.svg.min
+Vector icons, badges, flags etc. über optimised for web use.  
 
 <p>&nbsp;</p>
 
