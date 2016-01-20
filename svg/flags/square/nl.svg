@@ -1,1 +1,5 @@
-<svg viewBox="0 0 3 3" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="M0 0h3v3H0z"/><path fill="#21468b" d="M0 2h3v1H0z"/><path fill="#ae1c28" d="M0 0h3v1H0z"/></svg>
+<svg viewBox="0 0 3 3" xmlns="http://www.w3.org/2000/svg">
+  <path fill="#fff" d="M0 0h3v3H0z"/>
+  <path fill="#21468b" d="M0 2h3v1H0z"/>
+  <path fill="#ae1c28" d="M0 0h3v1H0z"/>
+</svg>
