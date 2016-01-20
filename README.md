@@ -3,7 +3,7 @@ Vector icons, badges, flags etc. über optimised for web use. (Formerly called s
 
 <p>&nbsp;</p>
 
-Preview: [codepen](http://codepen.io/larsenwork/pen/admEZM)  
+Preview: [icons + badges](http://codepen.io/larsenwork/pen/admEZM), [flags](http://codepen.io/larsenwork/details/vLpyqV/)  
 Get them: [svg](https://github.com/larsenwork/social.svg.min/tree/master/svg) and [inline svg](https://github.com/larsenwork/web.svg.min/tree/master/inline%20svg)  
 Requests: [issue](https://github.com/larsenwork/social.svg.min/issues/2)
 
