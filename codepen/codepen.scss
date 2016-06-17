@@ -5,7 +5,10 @@ $gun: #383940;
 $darken: 10%;
 $flickr-pink: #FE0084;
 $flickr-blue: #256DD9;
+$amazon-yellow: #fd9a00;
+$amazon-black: #231f20;
 $socials: (
+  amazon:      $gun,
   app-store:   $gun,
   behance:     #1769ff,
   buffer:      #333333,
@@ -99,6 +102,14 @@ $badges: (
         }
         .flickr-pink {
           fill: $flickr-pink;
+        }
+      }
+      @if $social == 'amazon' {
+        .amz-arrow {
+          fill: $amazon-yellow;
+        }
+        .amz-a {
+          fill: $amazon-black
         }
       }
       @if $social == 'reddit' {
